@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    name: Deploy mg-thet-se1
+    name: Deploy mg-thet-se2
     runs-on: ubuntu-latest
     
     permissions:
@@ -36,12 +36,12 @@ jobs:
         with:
           push: true
           build-args: CONFIG_FILE=config.json # config.json ကို တိုက်ရိုက်ညွှန်းထားပါတယ်။
-          tags: asia-southeast1-docker.pkg.dev/plexiform-shine-467703-s7/vless-repo-new/mg-thet-se1:${{ github.sha }}
+          tags: asia-southeast1-docker.pkg.dev/plexiform-shine-467703-s7/vless-repo-new/mg-thet-se2:${{ github.sha }}
 
       - name: Deploy to Cloud Run
         uses: 'google-github-actions/deploy-cloudrun@v2'
         with:
-          service: mg-thet-se1
+          service: mg-thet-se2
           region: 'asia-southeast1'
-          image: asia-southeast1-docker.pkg.dev/plexiform-shine-467703-s7/vless-repo-new/mg-thet-se1:${{ github.sha }}
+          image: asia-southeast1-docker.pkg.dev/plexiform-shine-467703-s7/vless-repo-new/mg-thet-se2:${{ github.sha }}
           flags: '--allow-unauthenticated'
