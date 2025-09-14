@@ -9,21 +9,21 @@
       "protocol": "vless",
       "settings": {
         "clients": [
-          { "id": "f5b8a3c1-7d2e-4b9a-8c6f-1d3a5e7b9c1d", "ksk4": "user1" },
-          { "id": "a2c7b4d3-8e1f-4c8b-9a5d-2e6f1a4b7c3e", "email": "user2" },
-          { "id": "b3d8c5e4-9f2a-4d7c-8b6e-3f1a5b8c4d5f", "email": "user3" },
-          { "id": "c4e9d6f5-0a3b-4e6d-9c7f-4a2b6c9d5e6a", "email": "user4" },
-          { "id": "d5f0e7a6-1b4c-4f5e-8d8a-5b3c7dae6f7b", "email": "user5" },
-          { "id": "e6a1f8b7-2c5d-4a4f-9e9b-6c4d8ebf7a8c", "email": "user6" },
-          { "id": "f7b2a9c8-3d6e-4b5a-8f0c-7d5e9fc08b9d", "email": "user7" },
-          { "id": "a8c3bad9-4e7f-4c6b-9a1d-8e6f0ad19cae", "email": "user8" },
-          { "id": "b9d4cbe0-5f8a-4d7c-8b2e-9f7a1be2adbf", "email": "user9" },
-          { "id": "cae5dbf1-6a9b-4e8d-9c3f-0a8b2cf3bec0", "email": "user10" },
-          { "id": "dbf6ec02-7ba_c-4f9e-8d4a-1b9c3da4cfd1", "email": "user11" },
-          { "id": "ecd7fd13-8cb_d-4aa_f-9e5b-2ca_d4eb5de2", "email": "user12" },
-          { "id": "fde8ae24-9dc_e-4b_ba-8f6c-3db_e5fc6ef3", "email": "user13" },
-          { "id": "aef9bf35-0ed_f-4c_cb-9a7d-4ec_f6ad7fa4", "email": "user14" },
-          { "id": "bfa0c046-1fe_a-4d_dc-8b8e-5fd_07be8ab5", "email": "user15" }
+          { "id": "a1b2c3d4-e5f6-4a7b-8c9d-1e2f3a4b5c6d", "email": "user1" },
+          { "id": "b2c3d4e5-f6a7-4b8c-9d1e-2f3a4b5c6d7e", "email": "user2" },
+          { "id": "c3d4e5f6-a7b8-4c9d-8e2f-3a4b5c6d7e8f", "email": "user3" },
+          { "id": "d4e5f6a7-b8c9-4d1e-9f3a-4b5c6d7e8f9a", "email": "user4" },
+          { "id": "e5f6a7b8-c9d1-4e2f-8a4b-5c6d7e8f9a0b", "email": "user5" },
+          { "id": "f6a7b8c9-d1e2-4f3a-9b5c-6d7e8f9a0b1c", "email": "user6" },
+          { "id": "a7b8c9d1-e2f3-4a4b-8c6d-7e8f9a0b1c2d", "email": "user7" },
+          { "id": "b8c9d1e2-f3a4-4b5c-9d7e-8f9a0b1c2d3e", "email": "user8" },
+          { "id": "c9d1e2f3-a4b5-4c6d-8e8f-9a0b1c2d3e4f", "email": "user9" },
+          { "id": "d1e2f3a4-b5c6-4d7e-9f9a-0b1c2d3e4f5a", "email": "user10" },
+          { "id": "e2f3a4b5-c6d7-4e8f-8a0b-1c2d3e4f5a6b", "email": "user11" },
+          { "id": "f3a4b5c6-d7e8-4f9a-9b1c-2d3e4f5a6b7c", "email": "user12" },
+          { "id": "a4b5c6d7-e8f9-4a0b-8c2d-3e4f5a6b7c8d", "email": "user13" },
+          { "id": "b5c6d7e8-f9a0-4b1c-9d3e-4f5a6b7c8d9e", "email": "user14" },
+          { "id": "c6d7e8f9-a0b1-4c2d-8e4f-5a6b7c8d9e0f", "email": "user15" }
         ],
         "decryption": "none"
       },
@@ -31,7 +31,7 @@
         "network": "ws",
         "security": "none",
         "wsSettings": {
-          "path": "/kske5181geewg6738743beg6_;fgefvehefgd484881ehfge7ge"
+          "path": "/a1b2c3d4-e5f6-4a7b-8c9d-1e2f3a4b5c6d-vless"
         }
       }
     }
